@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #001f3f, #003366, #004080);
+  background-attachment: fixed;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 30, 0.8);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 153, 255, 0.4);
+  width: 90%;
+  max-width: 480px;
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #00aaff;
+  margin-bottom: 0.3rem;
+}
+
+.qr-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.option label {
+  font-weight: 600;
+}
+
+.option input[type="color"],
+.option input[type="range"],
+.option input[type="file"] {
+  margin-top: 5px;
+}
+
+#generateBtn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  margin-top: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#generateBtn:hover {
+  background: #0099ff;
+}
+
+.qr-output {
+  margin-top: 20px;
+}
+
+#downloadBtn {
+  display: block;
+  margin-top: 10px;
+  color: #00aaff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #cccccc;
+}

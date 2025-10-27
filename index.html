@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Generate stylish QR codes instantly with Wepaman QR Code Generator. Customize colors, sizes, and logos in seconds." />
+  <meta name="keywords" content="QR code, generator, Wepaman, customize QR, QR logo, blue theme" />
+  <meta name="author" content="Wepaman Productions" />
+
+  <title>Wepaman QR Code Generator</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/logo.png" alt="Wepaman Logo" class="logo" />
+      <h1>Wepaman QR Code Generator</h1>
+      <p>Create beautiful and scannable QR codes — your way.</p>
+    </header>
+
+    <section class="qr-form">
+      <input type="text" id="qrText" placeholder="Enter URL or text here..." />
+
+      <div class="options">
+        <div class="option">
+          <label for="qrColor">QR Color:</label>
+          <input type="color" id="qrColor" value="#007bff" />
+        </div>
+
+        <div class="option">
+          <label for="bgColor">Background:</label>
+          <input type="color" id="bgColor" value="#ffffff" />
+        </div>
+
+        <div class="option">
+          <label for="qrSize">Size:</label>
+          <input type="range" id="qrSize" min="128" max="512" value="256" />
+          <span id="sizeValue">256 px</span>
+        </div>
+
+        <div class="option">
+          <label for="logoInput">Logo (optional):</label>
+          <input type="file" id="logoInput" accept="image/*" />
+        </div>
+      </div>
+
+      <button id="generateBtn">Generate QR Code</button>
+    </section>
+
+    <div class="qr-output">
+      <canvas id="qrCanvas"></canvas>
+      <a id="downloadBtn" href="#" download="Wepaman_QR.png">Download QR Code</a>
+    </div>
+
+    <footer>
+      © 2025 Wepaman Productions • All Rights Reserved
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
