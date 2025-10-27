@@ -56,6 +56,7 @@ Perfect for businesses, content creators, events, or personal branding, it allow
 
 ## 📂 Folder Structure
 
+
 wepaman-qr/
 ├── index.html
 ├── style.css
