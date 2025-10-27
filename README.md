@@ -77,7 +77,8 @@ wepaman-qr/
 ---
 
 ## ✅ License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [license](https://github.com/wepa-nytrik/Wepa-QR-Code-Generator/blob/main/LICENSE) for more info.
+
 
 ---
 
