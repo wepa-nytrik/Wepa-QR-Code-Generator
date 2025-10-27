@@ -13,7 +13,7 @@ The Wepaman QR Code Generator is a modern, mobile-friendly web app that lets you
 ## 🌐 Live Demo
 You can preview this app using this link: 
 
-https://wepa-nytrik.github.io/wepaman-qr/
+https://wepa-nytrik.github.io/Wepa-QR-Code-Generator/
 
 
 ---
@@ -73,7 +73,7 @@ wepaman-qr/
 1. Fork or download this repository  
 2. Upload files to your GitHub repository  
 3. Go to **Settings → Pages** → Branch: `main / (root)` → Save  
-4. Access your live site at:  https://wepa-nytrik.github.io/wepaman-qr/
+4. Access your live site at:  [Wepa QR Code Generator](https://https://wepa-nytrik.github.io/Wepa-QR-Code-Generator/)  
 
 ---
 
